@@ -1,0 +1,18 @@
+#editor {
+	border: 1px solid #ccc;
+	height: 25em;
+	margin: 5em auto 0 auto;
+	max-width: 50em;
+}
+
+.logo {
+    height: 8em;
+    width: 8em;
+}
+
+.logo-title {
+	color: #4BB5C1;
+	font-family: "Raleway", sans-serif;
+	font-size: 6em;
+	vertical-align: bottom;
+}
