@@ -1,0 +1,22 @@
+{
+    "env": {
+        "node": true
+    },
+    "globals": {
+        "console": true,
+        "polyphony": true,
+        "Runtime": true,
+        "Module": true,
+        "cFuncs": true
+    },
+    "rules": {
+        "no-console": 0,
+        "no-debugger": 0,
+        "no-global-strict": 0,
+        "no-underscore-dangle": 0,
+        "quotes": [2, "double", "avoid-escape"],
+        "valid-jsdoc": [2, {
+            "requireReturn": false
+        }]
+    }
+}
