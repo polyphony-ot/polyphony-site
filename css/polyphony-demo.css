@@ -1,18 +1,132 @@
-#editor {
-	border: 1px solid #ccc;
-	height: 25em;
-	margin: 5em auto 0 auto;
-	max-width: 50em;
+body {
+    color: #333;
+    font-family: "Raleway", sans-serif;
+    margin: 1em 0 1em 0;
+    text-align: center;
 }
-
+a {
+    color: #4BB5C1;
+}
+a:hover {
+    color: #7FC6BC;
+}
+h1 {
+    color: #4BB5C1;
+    font-size: 5em;
+    font-weight: normal;
+    margin: 0;
+    vertical-align: bottom;
+}
+h2 {
+    font-size: 2em;
+    font-weight: normal;
+    margin: 1em 0 1em 0;
+}
+.inline {
+    display: inline;
+}
+.banner {
+    margin-bottom: 3em;
+}
 .logo {
-    height: 8em;
+    height: 5em;
+    width: 5em;
+}
+.subtitle {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+.editor {
+    border: 1px solid #CCC;
+    height: 20em;
+    margin: 0 auto 0 auto;
+    max-width: 45em;
+}
+.nav-buttons {
+    margin: 2em 0 2em 0;
+}
+.button {
+    background-color: #4BB5C1;
+    border-radius: 10px;
+    color: #FFF;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: .5em;
+    padding: .75em;
+    text-decoration: none;
+    transition: background-color .25s;
     width: 8em;
 }
-
-.logo-title {
-	color: #4BB5C1;
-	font-family: "Raleway", sans-serif;
-	font-size: 6em;
-	vertical-align: bottom;
+.button:hover {
+    background-color: #7FC6BC;
+    color: white;
+}
+.button-icon {
+    fill: #FFF;
+    height: 1.5em;
+    margin-right: .25em;
+    vertical-align: middle;
+    width: 1.5em;
+}
+.button-text {
+    vertical-align: middle;
+}
+.image-button {
+    display: block;
+    fill: #4BB5C1;
+    height: 5em;
+    margin: 1em auto 0 auto;
+    transition: fill .25s;
+    width: 5em;
+}
+.image-button:hover {
+    fill: #7FC6BC;
+}
+.ribbon {
+    background-color: #B5E655;
+    color: #678B1F;
+    fill: #FFF;
+    list-style-type: none;
+    padding: 2em 0 2em 0;
+}
+.ribbon li {
+    display: inline-block;
+    margin: .5em 0 .5em 0;
+    vertical-align: top;
+    width: 19em;
+}
+.feature-icon {
+    display: inline-block;
+    height: 7em;
+    margin-right: 1em;
+    vertical-align: middle;
+    width: 7em;
+}
+.feature-icon.small {
+    height: 4em;
+    margin: 0 2em 0 2em;
+    width: 4em;
+}
+.feature-text {
+    display: inline-block;
+    height: 8em;
+    max-width: 10em;
+    text-align: left;
+    vertical-align: middle;
+}
+.feature-name {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+.icon {
+    fill: #4BB5C1;
+    margin: 1em auto 0 auto;
+    height: 5em;
+}
+.contributing {
+    font-size: 1.3em;
+    margin: 1em auto 0 auto;
+    max-width: 50em;
+    padding: 0 1em 0 1em;
 }

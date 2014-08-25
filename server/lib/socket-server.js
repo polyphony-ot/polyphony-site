@@ -5,7 +5,7 @@ var Socket = require("./socket");
 
 function SocketServer() {
     this._wsServer = new ws.Server({
-        port: 8080
+        port: 51015
     });
 
     this._wsServer.on("connection", function(wsSocket) {
