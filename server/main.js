@@ -6,7 +6,7 @@ var polyphony = require("polyphony");
 var socketServer = new SocketServer();
 
 var server = new polyphony.Server(socketServer);
-server.maxSize = 1048576;
+server.maxSize = 1024;
 process.on("exit", function() {
     server.close();
 });
