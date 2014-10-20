@@ -11,7 +11,14 @@ Running
 Make sure you have node and some sort of HTTP server installed. Something like
 [http-server](https://www.npmjs.org/package/http-server) is a solid choice.
 
-    $ node polyphony-site/server/main.js
+First, setup and start the node OT server:
+
+    $ cd polyphony-site/server
+    $ npm install
+    $ node main.js
+
+Next, start up the HTTP server:
+
     $ http-server polyphony-site
 
 Then just visit localhost:8080 (or whatever address you told your HTTP server to
