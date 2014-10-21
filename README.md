@@ -23,3 +23,9 @@ Next, start up the HTTP server:
 
 Then just visit localhost:8080 (or whatever address you told your HTTP server to
 listen on) in your browser and try it out!
+
+Walkthrough
+-----------
+
+Check out the [`doc`](doc) directory for documentation and a
+[walkthrough](doc/walkthrough.md) on how the site uses polyphony-js.

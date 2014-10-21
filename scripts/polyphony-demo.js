@@ -1,6 +1,3 @@
-var client = new polyphony.Client("ws://" + window.location.hostname + ":51015");
-client.maxSize = 1024;
-
 var editor = new Quill("#editor", {
     styles: {
         body: {
@@ -9,6 +6,9 @@ var editor = new Quill("#editor", {
         }
     }
 });
+
+var client = new polyphony.Client("ws://" + window.location.hostname + ":51015");
+client.maxSize = 1024;
 
 var adapter = new polyphony.QuillAdapter(editor, client);
 
