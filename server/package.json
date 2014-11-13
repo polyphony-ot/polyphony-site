@@ -4,7 +4,7 @@
   "description": "The OT server that powers the Polyphony demo.",
   "main": "main.js",
   "dependencies": {
-    "polyphony": "^0.1.0",
+    "polyphony": "^0.1.4",
     "ws": "^0.4.32"
   },
   "devDependencies": {},
